@@ -6,8 +6,8 @@ Separate branchs for each php version.
 Suggest ideas and improvments!
 # Run commands as follows:
 ### Outside container ###
-### Put your sites URL in your local hosts file ###
-### Put your sites *.conf on the config directory ###
+Put your sites URL in your local hosts file.
+Put your sites *.conf on the config directory.
 ```bash
 docker build -t caio/php71 . 
 docker run -ti -p 80:80 --name php-local -v /var/www/html:/var/www/html -d caio/php71
