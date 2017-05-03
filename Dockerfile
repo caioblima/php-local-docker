@@ -16,7 +16,6 @@ RUN a2enmod rewrite
 
 COPY ./config/php.ini /usr/local/etc/php/
 COPY ./config/*.conf /etc/apache2/sites-available/
-COPY ./config/hosts.conf /usr/local/share/
 RUN service apache2 restart
 
 WORKDIR /var/www/html
