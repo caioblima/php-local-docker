@@ -16,4 +16,3 @@ docker run -ti -p 80:80 --name php-local -v /var/www/html:/var/www/html -d caio/
 ```
 ### Inside container ###
 ***Enable your sites like you do in your local apache, inside the container***
-
