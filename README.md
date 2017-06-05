@@ -5,8 +5,8 @@ An docker image to run PHP locally as your dev environment.
 [7.1 Apache Image](https://github.com/caioblima/php-local-docker/tree/php-71-apache) --- Main Branch Always the latest PHP version
 
 # Tested on
-Linux
-Mac OS
+	- Linux
+	- Mac OS
 
 ### Future releases ###
 Separate branchs for each php version.
